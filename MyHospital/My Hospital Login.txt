@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<head>
+<title>Login Form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+body
+{
+background-image:url("https://t4.ftcdn.net/jpg/00/93/39/85/360_F_93398508_3gPd8HmrX9isj0OB0mLEmNOqYBqrO34I.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:cover;
+background-attachment:scroll;
+text-align:center;
+}
+input,button
+{
+height:25px;
+width:200px;
+font-style:italic;
+border-radius:10px;
+border:2px solid red;
+background-color:beige;
+}
+a
+{
+text-decoration:none;
+color:black;
+}
+button:hover
+{
+background-color:red;
+color:black
+}
+p
+{
+color:black;
+font-weight:bold;
+}
+div.relative
+{
+position:relative;
+top:340px;
+bottom:200px;
+border:3px none;
+padding:2px 5px;
+border-radius:10px;
+text-align:center;
+font-size:25px;
+font-weight:bold;
+color:black;
+}
+</style>
+<body>
+<div class="relative">
+<form name="myform"  action="My Hospital Login.php" method="POST" >
+<h3>Log in</h3>   
+Username : <input type="text" name="uname" placeholder="Enter Username " required=""><br><br>
+            
+Password : <input type="password" name="password1" placeholder="Enter Password" required=""><br><br>
+<button input type="submit" name="Login" method="POST" value="Login"><b>Login</b></button>
+
+<br>
+<a href="My Hospital Registration form.html"><p>Don't have an account, Register here..!</p></a>
+
+        </form>
+        
+    </div>
+
+    
+
+</body>
+</html>

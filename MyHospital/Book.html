@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+<title>My Hospital Register Form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+
+Input,button,select
+{
+height:25px;
+width:30px;
+font-style:italic;
+border-radius:10px;
+border:2px solid red;
+background-color:beige;
+margin-left:80px;
+}
+a
+{
+text-decoration:none;
+color:black;
+margin-left: 78px;
+}
+button:hover
+{
+background-color:red;
+color:black
+}
+
+h1
+  {
+        color:blue;
+        text-align:center;
+  }
+p
+{
+font-size:15px;
+}
+body
+{ background-color: beige;
+
+font-size:25px;
+}
+.box{
+    background-color: white;
+    margin: 100px 300px 100px 300px ;
+    padding: 20px;
+    height: auto;
+    box-shadow: 0 10px 42px 0 rgba(31,38,135,.37);
+}
+#abcd,option,select{
+    width: 700px;
+    height: 50px;
+    margin-top: 10px;
+}
+#abc
+{
+width:200px;
+
+}
+button{
+    margin-left: 40%; 
+}
+
+</style>
+<body>
+
+<div class="box">
+<h1>
+Book Your Consultant...
+</h1>
+       
+        <form name="myform2" action="Book.php" method="POST">
+
+<pre>      Patient Name *  
+<input type="text" id="abcd" name="uname" placeholder="Enter name" required=""></pre>
+
+<pre>      Age *	
+<input type="text" id="abcd" name="age" placeholder="Enter Age" required=""></pre>
+
+<pre>      Gender *  
+<input type="text" id="abcd" name="gender" placeholder="Enter Gender" required=""></pre>
+
+<pre>      Contact * 
+<input type="text" id="abcd" name="contact" placeholder="Enter Mobile number" required=""></pre>
+
+<pre>      Email *  
+<input type="email" id="abcd" name="email" placeholder="Enter Email id" required=""></pre>
+
+<pre>      Guardian Contact 
+<input type="text" id="abcd" name="gcontact" placeholder="Enter Guardian's number" ></pre>
+
+<pre>      Describe your Problem *
+<input type="text" id="abcd" name="problem" placeholder="About your illness" required=""></pre>
+
+<pre>      Choose your Consultant *	
+<select name="consultant">
+<div id="abcd"><option selected="" name="consultant" value="Default" required="">Please select a consultant</option>
+<option value="Dr. Angel">Dr. Angel</option>
+<option value="Dr. Loganayagi">Dr. Loganayagi</option>
+<option value="Dr. Purushothaman">Dr. Purushothaman</option>
+<option value="Dr. Jayashree">Dr. Jayashree</option>
+<option value="Dr. Agalya">Dr. Agalya</option>
+</div></select></pre>
+
+<pre>      Choose your Slot *		
+<input type="date" id="abcd" name="slot" required=""></pre>
+
+<pre>      Choose your Type *		
+<div id="abcd"><select name="type">
+<option selected="" name="type" value="Default" required="">Please select your way of Appointment</option>
+<option value="Video call">Video Call</option>
+<option value="Home Visit">Home Visit</option>
+<option value="Direct Appointment">Direct Appointment</option>
+</select></div></pre>
+
+<pre><p><input type="checkbox" name="box" placeholder="" required="">I agree with the Privacy Policy. This consultation service will not be provided 
+	physically or does not involve a physical examination. The consultation will take place 
+	remotely over a telephone, video call, or any other electronic communication. The 
+	advice delivered by our doctor solely depends on verbal communication, test reports, 
+	and other information provided by you.</p></pre>
+<button input type="submit" id="abc" name="Book" method="POST" action="" value="Book"><b>Book</b></button>
+
+            <br><br>
+            </form>
+        
+    </div>
+
+</body>
+</head>
+</html>

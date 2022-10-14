@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+<title>My Hospital Register Form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+body
+  {
+        background-image:url("https://cutewallpaper.org/21/medical-wallpaper/Medical-biology-detail-medicine-psychedelic-science-abstract-.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:cover;
+        background-attachment:scroll;
+        background-color:beige;
+        font-size:18px;
+        font-weight:bold;
+  }
+Input,button
+{
+height:25px;
+width:200px;
+font-style:italic;
+border-radius:10px;
+border:2px solid red;
+background-color:beige;
+margin-left:80px;
+}
+a
+{
+text-decoration:none;
+color:black;
+}
+button:hover
+{
+background-color:red;
+color:black
+}
+
+h1
+  {
+        color:blue;
+        text-align:center;
+  }
+h3
+  {
+        font-weight:bold;
+        color:red;
+        text-align:center;
+  }
+</style>
+<body>
+
+<div class="box">
+<h1>
+My Doctor's General care app
+</h1>
+        <h3>
+            Welcome to my Register page!<br><br>
+            Enter your details properly...</h3>
+        <form name="myform2" action="My Hospital registration form.php" method="POST">
+
+            <pre>Username	:  <input type="text" name="uname" placeholder="Enter Username" required=""></pre><br>
+
+            <pre>Age		:  <input type="text" name="age" placeholder="Enter Age" required=""></pre><br>
+
+            <pre>Gender		:  <input type="text" name="gender" placeholder="Enter Gender" required=""></pre><br>
+
+ 	    <pre>Contact		:  <input type="text" name="contact" placeholder="Enter Mobile number" required=""></pre><br>
+
+            <pre>Email		:  <input type="email" name="email" placeholder="Enter Email id" required=""></pre><br>
+
+	    <pre>Address		:  <input type="text" name="address" placeholder="Enter your Address" required=""></pre><br>
+
+  	    <pre>Pincode		:  <input type="text" name="pincode" placeholder="Enter your Pincode" required=""></pre><br>
+
+            <pre>Password	:  <input type="password" name="password1" placeholder="Enter Password" required=""></pre><br>
+
+            <pre>Retype Password :  <input type="password" name="password2" placeholder="Re-Enter Password" required=""></pre><br>
+
+            <button input type="submit" name="Register" method="POST" action="" value="Register"><b>Register</b></button>
+
+            <br><br>
+            <a href="My Hospital Login.html">If you we're an Existing user, Login here..!?</a>
+        </form>
+        
+    </div>
+
+</body>
+</head>
+</html>
